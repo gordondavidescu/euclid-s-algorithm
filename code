@@ -1,0 +1,17 @@
+var x = prompt("Enter the first number");
+var y = prompt("Enter the second number");
+if (y>x){
+    var z = x;
+    x = y;
+    y = z;}
+
+while (x%y!=0){
+    if (x%y == 0)
+    {return y}
+    else {
+        var remainder = (x%y)}
+    x = y;
+    y = remainder;
+}
+
+console.log(y + " is the highest number divisible by both numbers.");
